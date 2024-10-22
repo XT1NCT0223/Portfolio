@@ -13,19 +13,22 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.ghLink} target="_blank">
-          <AiFillApple /> &nbsp;
-          {props.isBlog ? "Blog" : "App Store"}
-        </Button>
+        {/* Render the App Store button only if apLink is provided */}
+        {props.apLink && (
+          <Button variant="primary" href={props.apLink} target="_blank">
+            <AiFillApple /> &nbsp;
+            {props.isBlog ? "Blog" : "App Store"}
+          </Button>
+        )}
         {"\n"}
         {"\n"}
 
         {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
 
-        {!props.isBlog && props.demoLink && (
+        {!props.isBlog && props.psLink && (
           <Button
             variant="primary"
-            href={props.demoLink}
+            href={props.psLink}
             target="_blank"
             style={{ marginLeft: "10px" }}
           >

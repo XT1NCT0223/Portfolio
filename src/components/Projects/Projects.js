@@ -26,9 +26,9 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="JSW Travel Odisha"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              description="Developed an internal cab facility mobile app for Jindal Steel Works, Bhadrashahi, with multi-tier approval workflows involving employees, managers, and admins to optimize ride-sharing and enhance transportation efficiency."
+              apLink="https://apps.apple.com/us/app/jsw-tr-isha/id6670152089"
+              psLink="https://play.google.com/store/apps/details?id=com.jsw_vms"
             />
           </Col>
 
@@ -37,9 +37,9 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="JSW Driver"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              description="Created a driver-facing mobile app for Jindal Steel Works, enabling drivers to manage and track their assigned trips efficiently."
+              apLink="https://apps.apple.com/us/app/jsw/id6670189652"
+              psLink="https://play.google.com/store/apps/details?id=com.jsw_d"
             />
           </Col>
 
@@ -48,9 +48,9 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="Cleannet SAP"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"
+              description="Created an app for CleanNet's Service Assurance Program (SAP), which tracks cleaning services and notifies stakeholders if a scheduled service day is missed, enabling corrective actions to be taken promptly."
+              apLink="itms-services://?action=download-manifest&url=https://www.cleannetusa.com/wp-content/uploads/apps/SAP/SAPInfo.plist"
+              psLink="https://play.google.com/store/apps/details?id=com.cleannetUSA.SAP&hl=en_IN"
             />
           </Col>
 
@@ -59,9 +59,9 @@ function Projects() {
               imgPath={leaf}
               isBlog={false}
               title="Cleannet Inspection USA"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              description="Developed an internet-based app for CleanNet that assesses service quality against cleaning specifications. The app reviews and scores various facility tasks, providing insights for performance improvements."
+              apLink="itms-services://?action=download-manifest&url=https://www.cleannetusa.com/wp-content/uploads/apps/Inspection/InspectionInfo.plist"
+              psLink="https://play.google.com/store/apps/details?id=com.Cleannetusaapp.Inspection&hl=en_IN"
             />
           </Col>
 
@@ -70,9 +70,9 @@ function Projects() {
               imgPath={suicide}
               isBlog={false}
               title="Aspire Active Camps"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+              description="Developed a user-friendly mobile app for parents to seamlessly book events and manage their children’s participation in Aspire Active Camps. The app simplifies event registration, provides real-time updates, and offers a secure way for parents to track their children’s activities during sports and holiday camps. The app integrates payment options, including childcare vouchers, and ensures data security while enhancing communication between camp organizers and parents, creating a smooth, reliable experience."
+              apLink="https://apps.apple.com/gb/app/aspire-active-camp/id1523642821?ign-mpt=uo%3D2"
+              psLink="https://play.google.com/store/apps/details?id=com.aspiresports.booking"
             />
           </Col>
 
@@ -81,10 +81,9 @@ function Projects() {
               imgPath={emotion}
               isBlog={false}
               title="Aspire Teams"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              demoLink="https://blogs.soumya-jit.tech/"
+              description="Developed a mobile app to manage children at sports camp venues, enabling staff and employees to handle day-to-day activities, scheduling, and progress tracking efficiently."
+              apLink="https://apps.apple.com/gb/app/aspire-team/id1523599055"
+              psLink="https://play.google.com/store/apps/details?id=com.aspiresports.team&hl=en_IN"
             />
           </Col>
 
@@ -93,10 +92,7 @@ function Projects() {
               imgPath={emotion}
               isBlog={false}
               title="xTimesheet"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              demoLink="https://blogs.soumya-jit.tech/"
+              description="Mobile app to track the time a particular employer has worked during a certain period."
             />
           </Col>
         </Row>
